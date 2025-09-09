@@ -30,4 +30,29 @@
 body{
   font-family:  "EB Garamond", serif;
 }
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "EB Garamond", serif;
+  }
+  p, span, a, li, div, button {
+    font-family: "Urbanist", sans-serif;
+  }
+}
+@layer components {
+  .container-header {
+    @apply px-26 py-2.5;
+  }
+  .container{
+    @apply px-26;
+  }
+}
+@utilities {
+  .btn-primary {
+    @apply bg-primary text-white font-semibold hover:bg-primary-light;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-white font-semibold hover:bg-secondary-dark;
+  }
+}
+
 
