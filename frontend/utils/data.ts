@@ -81,3 +81,33 @@ export const navlinks = [
     href: "/news",
   },
 ];
+
+export const slides: Slides[] = [
+  {
+    id: 1,
+    title: "Find Your Dream Home",
+    subtitle: "Browse through our premium listings",
+    image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg",
+  },
+  {
+    id: 2,
+    title: "Luxury Apartments",
+    subtitle: "Comfort meets elegance at UrbanLodge",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+  },
+  {
+    id: 3,
+    title: "Trusted Agents",
+    subtitle: "Work with professionals who care",
+    image: "https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg",
+  },
+];
+
+export const links = [
+  { name: "Buy", href: "" },
+  { name: "Sell", href: "" },
+  { name: "Rent", href: "" },
+  { name: "Pre-approval", href: "" },
+  { name: "Just Sold", href: "" },
+  { name: "Home Value", href: "" },
+];

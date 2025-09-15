@@ -10,3 +10,10 @@ interface Navlink {
     href: string;
   }];
 }
+
+interface Slides {
+  id: number;
+  image: string;
+  title: string;
+  subtitle: string;
+}

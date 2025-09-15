@@ -6,6 +6,8 @@ import { ChevronDown, Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { navlink, navlinks } from "@/utils/data";
+import logo from "../../public/assets/logo.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const navLinks = [
@@ -72,8 +74,8 @@ const Navbar = () => {
 
         {/* logo */}
         <div className="">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            UrbanLodge
+          <Link href="/">
+            <Image src={logo} alt="logo" className="w-[100px] object-contain" />
           </Link>
         </div>
 
