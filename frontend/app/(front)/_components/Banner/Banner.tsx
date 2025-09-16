@@ -12,27 +12,8 @@ import Link from "next/link";
 const Banner = () => {
   const [searchValue, setSearchValue] = useState("");
 
-  //   const handleLocationClick = () => {
-  //     if (navigator.geolocation) {
-  //       navigator.geolocation.getCurrentPosition(
-  //         (position) => {
-  //           alert(
-  //             `Your location: Lat: ${position.coords.latitude}, Lng: ${position.coords.longitude}`
-  //           );
-  //           // You can also set this as search value or send to API
-  //           setSearchValue("Using Current Location...");
-  //         },
-  //         (error) => {
-  //           alert("Location access denied. Please allow location access.");
-  //         }
-  //       );
-  //     } else {
-  //       alert("Geolocation is not supported by your browser.");
-  //     }
-  //   };
-
   return (
-    <div className="relative w-full h-[100vh]">
+    <div className="relative w-full">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={0}
@@ -77,7 +58,6 @@ const Banner = () => {
                     type="search"
                     value={searchValue}
                     onChange={(e) => setSearchValue(e.target.value)}
-                    // onFocus={handleLocationClick}
                     placeholder="Search for properties..."
                     className="w-full bg-neutral-light px-4 py-3 rounded-lg text-black outline-none"
                   />

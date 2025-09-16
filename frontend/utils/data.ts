@@ -111,3 +111,62 @@ export const links = [
   { name: "Just Sold", href: "" },
   { name: "Home Value", href: "" },
 ];
+
+export const browse = [
+  {
+    id: 1,
+    title: "New Listings",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 123,
+    href: "/new-listings",
+  },
+  {
+    id: 2,
+    title: "Price Reduced",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 1824,
+    href: "/price-reduced",
+  },
+  {
+    id: 3,
+    title: "Open Houses",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 126,
+    href: "/open-houses",
+  },
+  {
+    id: 4,
+    title: "Recently Sold",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 10445,
+    href: "/recently-sold",
+  },
+  {
+    id: 5,
+    title: "New Contruction",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 739,
+    href: "/new-construction",
+  },
+  {
+    id: 6,
+    title: "New Home Communities",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 37,
+    href: "/new-home-communities",
+  },
+  {
+    id: 7,
+    title: "Land for Sale",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 304,
+    href: "/land-for-sale",
+  },
+  {
+    id: 8,
+    title: "Rentals",
+    image: "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+    badge: 1023,
+    href: "/rentals",
+  },
+];

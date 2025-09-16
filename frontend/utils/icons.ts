@@ -65,6 +65,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { ImCancelCircle } from "react-icons/im";
 import { LuPackage2 } from "react-icons/lu";
 import { IoMdMail } from "react-icons/io";
+import { FcHome } from "react-icons/fc";
 export const ICONS = {
   mail: IoMdMail,
   dash: AiOutlineSmallDash,
@@ -125,4 +126,5 @@ export const ICONS = {
   filter: CiFilter,
   edit: MdEditSquare,
   glass: BsEmojiSunglasses,
+  home: FcHome,
 };
